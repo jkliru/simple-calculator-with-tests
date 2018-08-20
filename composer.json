@@ -1,0 +1,20 @@
+{
+    "name": "jkliru/strategy",
+    "description": "Simple Strategy pattern example",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S.Cheglakov",
+            "email": "serg.cheglakov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "jkliru\\": "src"
+        }
+    }
+}
