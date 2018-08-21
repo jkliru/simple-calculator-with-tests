@@ -48,6 +48,11 @@ class Calculator
         }
     }
 
+    /**
+     * @param int $a
+     * @param int $b
+     * @return int
+     */
     public function calculate(int $a, int $b): int {
         return $this->strategy->calculate($a, $b);
     }

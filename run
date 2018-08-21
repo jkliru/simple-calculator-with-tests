@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor/autoload.php';
+
+use jkliru\Strategy\Calculator;
+
+$plus = new Calculator("+");
+$minus = new Calculator("-");
+$mult = new Calculator("*");
+$divs = new Calculator("/");
+
+$a = 14;
+$b = 0;
+
+echo $plus->calculate($a, $b) . PHP_EOL;
+echo $minus->calculate($a, $b) . PHP_EOL;
+echo $mult->calculate($a, $b) . PHP_EOL;
+echo $divs->calculate($a, $b) . PHP_EOL;
