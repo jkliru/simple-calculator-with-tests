@@ -54,4 +54,10 @@ final class CalculatorTest extends TestCase
 
         $calculator->calculate($a, $b);
     }
+
+    public function testWrongOperation(): void
+    {
+        $this->expectException(\Exception::class);
+        new \jkliru\Strategy\Calculator('&');
+    }
 }

@@ -1,13 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: pilot
- * Date: 8/20/18
- * Time: 9:47 PM
- */
 
 namespace jkliru\Strategy;
 
+/**
+ * Class PlusOperation
+ *
+ * Реализует операцию сложения
+ *
+ * @package jkliru\Strategy
+ */
 class PlusOperation implements OperationInterface
 {
     /**

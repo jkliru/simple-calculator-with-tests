@@ -1,13 +1,15 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: pilot
- * Date: 8/20/18
- * Time: 9:49 PM
- */
 
 namespace jkliru\Strategy;
 
+/**
+ * Class DivsOperation
+ *
+ * Реализует операцию деления
+ * При делении на 0 выбрасывает исключение
+ *
+ * @package jkliru\Strategy
+ */
 class DivsOperation implements OperationInterface
 {
     /**

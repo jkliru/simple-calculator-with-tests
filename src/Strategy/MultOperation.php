@@ -1,14 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: pilot
- * Date: 8/20/18
- * Time: 9:49 PM
- */
 
 namespace jkliru\Strategy;
 
-
+/**
+ * Class MultOperation
+ *
+ * Реализует операцию умножения
+ *
+ * @package jkliru\Strategy
+ */
 class MultOperation implements OperationInterface
 {
     /**

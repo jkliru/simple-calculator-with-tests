@@ -3,7 +3,11 @@
 namespace jkliru\Strategy;
 
 /**
+ * Class Calculator
  *
+ * Основной класс приложения
+ *
+ * @package jkliru\Strategy
  */
 class Calculator
 {
@@ -21,6 +25,13 @@ class Calculator
         $this->strategy = $this->getStrategy($operation);
     }
 
+    /**
+     * Определяем операцию
+     *
+     * @param $operation
+     * @return OperationInterface
+     * @throws \Exception
+     */
     private function getStrategy($operation): OperationInterface
     {
         switch ($operation) {

@@ -1,13 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: pilot
- * Date: 8/20/18
- * Time: 9:48 PM
- */
 
 namespace jkliru\Strategy;
 
+/**
+ * Class SubsOperation
+ *
+ * Реализует операцию вычитания
+ *
+ * @package jkliru\Strategy
+ */
 class SubsOperation implements OperationInterface
 {
     /**
